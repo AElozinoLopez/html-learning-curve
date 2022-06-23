@@ -5,7 +5,32 @@
     </head>
     <body>
         <h2> Contact Us</h2>
-
+        <p>Kindly fill the form</p>
+        <form action="GET">
+            First Name: <input type="text"> <br>
+            Last Name: <input type="text"> <br>
+            Email: <input type="email"> <br>
+            DOB: <input type="date"> <br>
+            State of Origin: <br>
+                <select name="state-of-origin" id="">
+                    <option value="Abia">Abia</option>
+                    <option value="Delta">Delta</option>
+                    <option value="Rivers">Rivers</option>
+                    <option value="Lagos">Lagos</option>
+                    <option value="Edo">Edo</option>
+                    <option value="Abuja">Abuja</option>
+                </select> <br>
+            Gender: <br>
+                <input type="radio" name="Gender" value="Male"> Male <br>
+                <input type="radio" name="Gender" value="Female"> Female <br>
+                <input type="radio" name="Gender" value="Other"> Other <br>
+            How would you like for us to contact you? <br>
+                <input type="checkbox" name="contact" value="tel"> Tel <br>
+                <input type="checkbox" name="contact" value="email"> Email <br>
+                <input type="checkbox" name="contact" value="whatsapp"> Whatsapp <br>
+            Complaint / Compliment: <input type="text" min="10">
+            
+        </form>
         <h4> <a href="index.html" > Home </a></h4>
     </body>
 </html>
